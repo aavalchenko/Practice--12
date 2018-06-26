@@ -45,8 +45,8 @@ namespace Practice__12
 
                     case ConsoleKey.NumPad3:
                     case ConsoleKey.D3:
-                        Console.WriteLine("Исходный массив: " + array.ToRandom().String() + "\n");
                         Console.Clear();
+                        Console.WriteLine("Исходный массив: " + array.ToRandom().String() + "\n");
                         Console.WriteLine("Количество сравнений и количество перемещений равно: " + EasyEnterSort(array, true).String() + "\n");
                         Console.WriteLine("Количество сравнений и количество перемещений равно: " + BucketSort(array, true).String() + "\n");
                         Get.Wait();
